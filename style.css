@@ -1,0 +1,97 @@
+body {
+     font-family: Arial, Helvetica, sans-serif;
+     height: 100vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background: url("data: image/jpeg;base64,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 //Z") no-repeat center; 
+     background-size: cover;
+     background-attachment: fixed;
+     overflow: hidden;
+     background: linear-gradient(120deg, #090979, #097c4a, #3D99D7);
+}
+
+body::before{
+     content: '';
+     display: block;
+     position: fixed;
+     inset: 0;
+     background: rgba(2555, 255, 255, .3);
+}
+
+.card {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     width: 500px;
+     height: 270px;
+     border-radius: 15px;
+     color: white;
+     position: relative;
+     overflow: hidden;
+     text-shadow: 0 2px 0 black;
+     padding: 1.5rem 2rem;
+     box-shadow: 0 10px 50px -10px black;
+     animation: cardAnimation 1s alternate infinite;
+     background: linear-gradient(-25deg, black , #444 , black )
+}
+
+@keyframes cardAnimation {
+     from {transform: translateY(-20px)}
+}
+
+.card::before{
+     content: '';
+     display: block;
+     position: absolute;
+     width: 600px;
+     height: 600px;
+     border-radius: 100%;
+     box-shadow: 0 0 50px 10px rgba(38, 38, 38, .95) inset;
+     top: 1rem;
+     left: 50%;
+     transform: translateX(-50%);
+}
+
+.card-top, .card-bottom{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+
+.card-top svg{
+     transform: rotate((90deg));
+     width: 40px;
+     height: 50px;
+}
+
+.card-title {
+     font-size: 1.8rem;
+     z-index: 1;
+}
+
+.card-center {
+     z-index: 1;
+}
+
+.card-center img{
+     width: 150px;
+     position: absolute ;
+     margin-top: -50px;
+     margin-left: -20px;
+}
+
+.card-bottom-left, .card-bottom-right {
+     display: flex;
+     flex-direction: column;
+}
+
+.card-bottom-left {
+     gap: .7rem;
+}
+
+.card-number {
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 1.5rem;
+     letter-spacing: 3px;
+}
